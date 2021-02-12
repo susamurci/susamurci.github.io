@@ -42,69 +42,15 @@ li a:hover {
 h1 {
 color: #00994d;
 font-family: fantasy; 
+margin: 40px 400px 5px 75px;
+letter-spacing: 1px;
 
 }
-
-.container {
-    position: relative;
-    width: 50%;
-  }
-  
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color:#ffcc99;
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
-  
-  .text {
-    color: #00664d;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-
-
 p {
     font-size: 20px;
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    }
-a:link {
-    color: #00994d;
-    text-decoration: none;
-}          
-a:visited {
-    color: #00cc7a
-}
-a:hover {
-    color: #ff6600
-}
-.entradas img  {
-        display: block;
-        margin-right:100%;
-        max-width: 500px;
-    }
-.entradas {
     margin: 40px 400px 5px 75px;
-    }    
-  
+    
+}
+              
